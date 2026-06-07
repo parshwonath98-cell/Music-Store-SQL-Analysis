@@ -126,3 +126,48 @@ Uses a CTE with `ROW_NUMBER() OVER(PARTITION BY billing_country ORDER BY SUM(tot
 3. Open `Music_Store_Query.sql`
 4. Run queries individually or as a full script
 5. Questions are organized into **3 sections** — Easy, Moderate, and Advanced — with comments marking each question clearly
+
+---
+
+---
+
+## 📊 Key Findings & Conclusions
+
+### 🟢 Question Set 1 — Easy
+
+| # | Question | Finding |
+|---|----------|---------|
+| Q1 | Senior Most Employee | **Mohan Madan** holds the highest position — Senior General Manager |
+| Q2 | Countries with Most Invoices | **USA leads with 131 invoices**, followed by Canada (76) and Brazil (61) |
+| Q3 | Top 3 Invoice Values | Highest invoices recorded at **$23.76, $19.80, and $19.80** |
+| Q4 | Best City for Music Festival | **Prague** generates the highest cumulative revenue at **$273.24** — ideal festival location |
+| Q5 | Best Customer | **František Wichterlová** is the top spender with **$144.54** in total purchases |
+
+---
+
+### 🟡 Question Set 2 — Moderate
+
+| # | Question | Finding |
+|---|----------|---------|
+| Q1 | Rock Music Listeners | **59 unique customers** listen to Rock music across the database |
+| Q2 | Top Rock Artist | **Led Zeppelin dominates with 114 Rock tracks**, followed by U2 (112) and Deep Purple (92) |
+| Q3 | Above-Average Track Length | Average track length is **6.56 minutes**; **494 tracks** exceed this — longest is *Occupation / Precipice* at **88 minutes** |
+
+---
+
+### 🔴 Question Set 3 — Advanced
+
+| # | Question | Finding |
+|---|----------|---------|
+| Q1 | Customer Spend by Artist | **Queen** is the best-selling artist at **$190.08** in total revenue; top spender on Queen is **Hugh O'Reilly at $27.72** |
+| Q2 | Top Genre by Country | **Rock dominates in 22+ countries**; notable exception — Argentina favours **Alternative & Punk** |
+| Q3 | Top Customer by Country | **František Wichterlová (Czech Republic)** leads globally at $144.54, followed by **Manoj Pareek (India)** at $111.87 and **Hugh O'Reilly (Ireland)** at $114.84 |
+
+---
+
+### 💡 Overall Business Insights
+- **Rock is the universal genre** — it tops purchases in nearly every country in the dataset, making it the safest anchor for any global playlist or marketing campaign
+- **Prague should host the next Music Festival** — it outperforms all other cities in cumulative invoice value by a significant margin
+- **The US market is the highest-volume territory** — 131 invoices, more than any other country — but Czech Republic produces the single highest-spending individual customer
+- **Queen drives the most artist-level revenue** — partnership or exclusive content from Queen-adjacent artists would likely yield strong returns
+- **494 tracks exceed the average song length of 6.56 minutes** — indicating a strong catalog of extended/live recordings that could be marketed to premium listeners
